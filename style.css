@@ -1,0 +1,68 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;   
+}
+
+
+.outerdiv{
+    height: 510px;
+    width: 350px;
+    position: relative;
+    top:50px;
+    left:450px;
+    border-radius: 10px;
+    border:1px solid black;
+    
+}
+
+img{
+    height: 170px;
+    width: 351px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-evenly;
+}
+p{
+    margin:0;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+}
+
+.price-information{
+    background-color:hsl(231, 47%, 97%);
+    height: 65px;
+    width:100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+svg{
+    margin-left: -10px;
+}
+.plan{
+    margin-left: -50px;
+}
+
+.proceed-to-payment{
+    font-size: 13px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: -20px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(30, 0, 197);
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 14px 5px 0px rgba(123, 129, 245, 0.4);
+}
